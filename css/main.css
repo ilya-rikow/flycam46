@@ -72,7 +72,7 @@ body {
     text-decoration: none;
 }
 .header__link:hover {
-    color: #ffba00
+    color: #ffba00;
 }
 .btn {
     background: #ffba00;
@@ -770,6 +770,10 @@ body {
 {
     padding:15px 10px;
     font-weight: bold;
+}
+.header__link-active
+{
+    color: #ffba00;
 }
 /*АДАПТИВ*/
 
