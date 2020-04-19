@@ -4,6 +4,19 @@ $(document).ready(function(){
 		$('body').toggleClass('lock');
 	});
 });
+
+/*===========================================================================*/
+
+$(function() {
+  $('.header__menu [href]').each(function() {
+    if (this.href == window.location.href) {
+      $(this).addClass('header__link-active');
+    }
+  });
+});
+
+/*===============================================================================*/
+
 const authButton = document.querySelector("#auth-button");
 const modalAuth = document.querySelector(".modal-auth");
 const closeAuth = document.querySelector(".close-auth");
