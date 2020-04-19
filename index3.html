@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>FlyCam46</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="font-awesome/css/all.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<a href="#" class="header__logo">
+					<img src="img/logo.png" alt="Логотип">
+				</a>
+				<div class="head_menu">
+						<button class="btn-mob" id="auth-button-mob">
+							
+						</button>
+						<div class="header__burger">
+							<span></span>
+						</div>
+
+				</div>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li><a href="index.html" class="header__link">Главная</a></li>
+						<li><a href="index2.html" class="header__link">О нас</a></li>
+						<li><a href="index3.html" class="header__link">Портфолио</a></li>
+						<li><a href="index4.html" class="header__link">Контакты</a></li>
+						<button class="btn auth" id="auth-button"><span>Авторизация</span></button>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="videos">
+			<div class="container">
+				<div class="video-work">
+						<h3>Имиджевый ролик компании АО "Артель</h3>
+
+						<div class="video">
+							<a class="video" data-fancybox href="https://www.youtube.com/embed/WHjbRRHEkXg"><i class="fab fa-youtube icon-yt bg-yt1"><!-- <img src="img/video1.JPG" alt=""> --></i></a></div>
+						<h3>Презентация буровой установки компании Геомаш на английском языке</h3>
+						<div class="video"><a data-fancybox href="https://www.youtube.com/embed/lVZ8tl0XadY"><i class="fab fa-youtube icon-yt bg-yt2"></i></a></div>
+						
+						<h3>Фильм о строительстве Леруа Мерлен в Курске</h3>
+						<div class="video"><a data-fancybox href="https://www.youtube.com/embed/mvwYq9IcEb0"><i class="fab fa-youtube icon-yt bg-yt3"></i></a></div>
+						
+						<h3>Инстаграмм обзор Ауди ТТ</h3>
+						<div class="video"><a data-fancybox href="https://www.youtube.com/embed/MOO1eW_3pn0"><i class="fab fa-youtube icon-yt bg-yt4"></i></a></div>
+					
+				</div>
+			</div>	
+
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-info">
+				
+				<span class="logo-text">
+					&copy2020  flycam46
+				</span>
+				<div class="menu-footer">
+					<ul class="header__list">
+						<li><a href="#" class="header__link">Главная</a></li>
+						<li><a href="#" class="header__link">О нас</a></li>
+						<li><a href="#" class="header__link">Портфолио</a></li>
+						<li><a href="#" class="header__link">Контакты</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal-auth">
+		<div class="modal-dialog-auth">
+			<div class="modal-header">
+				<h3 class="modal-title">Войти</h3>
+				<button class="close-auth">&times;</button>
+			</div>
+			<div class="modal-body">
+				<form action="#" method="POST">
+					<span class="modal-auth">Логин</span>
+					<div class="auth-row">
+						<input type="email" class="inp-modal inp-log" placeholder="Введите логин">
+					</div>
+					<span class="modal-auth">Пароль</span>
+					<div class="auth-row">
+						<input type="password" class="inp-modal inp-pass" placeholder="Введите пароль">
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<div class="footer-buttons">
+					<button class="btn authoriz">Войти</button>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.5.0.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/main.js"></script>	
+</body>
+</html>
